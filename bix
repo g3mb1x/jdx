@@ -1,0 +1,23 @@
+#!/data/data/com.termux/files/usr/bin/bash
+if [ ! -f /data/data/com.termux/files/usr/bin/zip ]; then
+pkg install zip -y
+fi
+if [ ! -f /data/data/com.termux/files/usr/bin/unzip ]; then
+pkg install unzip -y
+fi
+if [ ! -f /data/data/com.termux/files/usr/bin/xmllint ]; then
+pkg install libxml2-utils -y
+fi
+
+unzip -o  ~/jdx/gem -d ~/jdx
+chmod -R 700 ~/jdx/
+
+yes | mv -fr -t ~/.shortcuts/tasks/ BOY EMAIL JD SWITCH WON alamat beranda dikemas
+yes | mv -fr -t ~/.shortcuts/ CLEAN
+yes | mv -fr -t /data/data/com.termux/files/usr/bin/ aaacak aaairplane aaalamat aaba520 aaberanda aacancel1 aacancel2 aaclear aaco aade aadikemas aaemail aafilex aahome aajumlah aakacer aakode aapep190 aaposh aareboost aarose aaseday aasedgor aasun210 aasun700 aatroli aavocer letsgo done
+
+if [ $(su -c cat /data/ranjau) == gembix ] || [ $(su -c cat /data/ranjau) == farhan ] || [ $(su -c cat /data/ranjau) == petra ] || [ $(su -c cat /data/ranjau) == vince ]; then
+yes | mv -fr -t ~/.shortcuts/tasks/ PETRA wonX order cancel1 cancel2
+fi
+
+echo "Updated."
