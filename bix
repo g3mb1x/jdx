@@ -19,7 +19,11 @@ yes | cp -fr -t /data/data/com.termux/files/usr/bin/ aaacak aaairplane aaalamat 
 yes | cp -fr -t /sdcard/data/BixDE/ Setting_.eg
  
 if [ $(su -c cat /data/ranjau) == gembix ] || [ $(su -c cat /data/ranjau) == farhan ] || [ $(su -c cat /data/ranjau) == petra ] || [ $(su -c cat /data/ranjau) == vince ]; then
-yes | cp -fr -t ~/.shortcuts/tasks/ PETRA wonX order cancel1 cancel2 DIYAN
+yes | cp -fr -t ~/.shortcuts/tasks/ PETRA wonX order cancel1 cancel2
+elif [ $(su -c cat /data/ranjau) == mansur ]; then
+yes | cp -fr -t ~/.shortcuts/tasks/ MAN
+cd ~/.shortcuts/tasks/
+rm -rf 1 2 3 BOY WON
 fi
 
 echo "Updated."
