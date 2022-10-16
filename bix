@@ -24,6 +24,10 @@ elif [ $(su -c cat /data/ranjau) == mansur ]; then
 yes | cp -fr -t ~/.shortcuts/tasks/ MAN
 cd ~/.shortcuts/tasks/
 rm -rf 1 2 3 BOY WON
+elif [ $(su -c cat /data/ranjau) == endar ]; then
+yes | cp -fr -t ~/.shortcuts/tasks/ Wonogiri Boyolali
+cd ~/.shortcuts/tasks/
+rm -rf 1 2 3 BOY WON
 fi
 
 echo "Updated."
