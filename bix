@@ -14,7 +14,7 @@ chmod -R 700 ~/jdx/
 mkdir -p /sdcard/data/BixDE
 
 yes | cp -fr -t ~/.shortcuts/tasks/ BOY EMAIL JD SWITCH WON alamat beranda dikemas 1 2 3
-yes | cp -fr -t ~/.shortcuts/ CLEAN
+yes | cp -fr -t ~/.shortcuts/ CLEAN GantiHP
 yes | cp -fr -t /data/data/com.termux/files/usr/bin/ aaacak aaairplane aaalamat aaba520 aaberanda aacancel1 aacancel2 aaclear aaco aade aadikemas aaemail aafilex aahome aajumlah aakacer aakode aapep190 aaposh aareboost aarose aaseday aasedgor aasun210 aasun700 aatroli aavocer letsgo done
 yes | cp -fr -t /sdcard/data/BixDE/ Setting_.eg
  
