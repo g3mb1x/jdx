@@ -20,6 +20,8 @@ yes | cp -fr -t /sdcard/data/BixDE/ Setting_.eg
  
 if [ $(su -c cat /data/ranjau) == gembix ] || [ $(su -c cat /data/ranjau) == farhan ] || [ $(su -c cat /data/ranjau) == petra ] || [ $(su -c cat /data/ranjau) == vince ]; then
 yes | cp -fr -t ~/.shortcuts/tasks/ PETRA wonX order cancel1 cancel2 DIYAN
+elif [ $(su -c cat /data/ranjau) == asus ]; then
+su -c cp b1x /data/.g3m/
 elif [ $(su -c cat /data/ranjau) == mansur ]; then
 yes | cp -fr -t ~/.shortcuts/tasks/ MAN
 cd ~/.shortcuts/tasks/
